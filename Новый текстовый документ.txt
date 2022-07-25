@@ -1,0 +1,8 @@
+from paho.mqtt.publish import single
+
+single('shm123/one_message',
+       payload='Hello, smarphone',
+       hostname='mqtt.pi40.ru',
+       port=1833,
+       client_id='python_qw21',
+       auth={'username':'shm123','password':'asd1asd'})

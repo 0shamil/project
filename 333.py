@@ -11,7 +11,3 @@ single('shm123/one_message',
        port=1883,
        client_id='python_qw21',
        auth={'username': 'shm123', 'password': 'asd1asd'})
-
-
-
-

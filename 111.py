@@ -1,5 +1,5 @@
 import cv2
-from paho.mqtt.subscribe import simple
+from paho.mqtt.subscribe import simp
 
 fl = cv2.imread('flower.jpeg')
 car = cv2.imread('cars.jpeg')
